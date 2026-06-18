@@ -7,9 +7,9 @@
   "type": "commonjs",
   "main": "index.html",
   "scripts": {
-    "dev": "npx live-server src/"
+    "dev": "vite"
   },
   "dependencies": {
-    "live-server": "^1.2.2"
+    "vite": "^8.0.16"
   }
 }

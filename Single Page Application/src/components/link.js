@@ -1,9 +1,11 @@
-export const HOST = "http://127.0.0.1:8080";
+import { navigate } from "../routes/index";
 
-export const mountLink = (label, href) => {
+export const mountLink = (label, destinationRoute) => {
     const link = document.createElement("a");
     link.innerHTML = label;
-    link.href = href;
+    link.href = "javascript:void(0)";
+
+    link.addEventListener("click", () => navigate(destinationRoute));
 
     return link;
 };

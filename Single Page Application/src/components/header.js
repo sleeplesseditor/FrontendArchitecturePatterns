@@ -1,8 +1,8 @@
-import { mountLink, HOST } from "./link.js";
+import { mountLink } from "./link.js";
 
 export const mountHeader = () => {
-    const homeLink = mountLink("Home", HOST);
-    const detailsLink = mountLink("Details", HOST + "/detail.html");
+    const homeLink = mountLink("Home", "home");
+    const detailsLink = mountLink("Details", "detail");
 
     const header = document.createElement("header");
     header.appendChild(homeLink);
