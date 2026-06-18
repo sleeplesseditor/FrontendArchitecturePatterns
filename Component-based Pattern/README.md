@@ -28,4 +28,5 @@ An example of component-based pattern architecture with a very simple JavaScript
 
 ## Use Instructions
 - CD into project folder
+- Run `npm install`
 - Run `npm run dev`
