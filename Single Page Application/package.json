@@ -1,0 +1,15 @@
+{
+  "name": "single-page-application",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Josh Bryson",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server src/"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
