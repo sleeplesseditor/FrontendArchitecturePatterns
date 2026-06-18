@@ -1,0 +1,15 @@
+{
+  "name": "state-management",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Josh Bryson",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vite": "^8.0.16"
+  }
+}
