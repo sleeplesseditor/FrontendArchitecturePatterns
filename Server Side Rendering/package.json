@@ -1,0 +1,16 @@
+{
+  "name": "server-side-rendering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
