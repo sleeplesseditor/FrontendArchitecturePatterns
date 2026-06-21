@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 module.exports = {
     mode: "development",
     devServer: {
-     port: 8082,
+        port: 8082,
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -14,7 +14,7 @@ module.exports = {
             name: "tracker",
             filename: "remoteEntry.js",
             exposes: {
-            "./TrackerIndex": "./src/tracker",
+                "./TrackerIndex": "./src/tracker",
             },
         }),
     ],

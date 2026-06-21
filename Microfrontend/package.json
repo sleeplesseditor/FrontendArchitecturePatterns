@@ -4,7 +4,6 @@
   "description": "",
   "license": "ISC",
   "author": "Josh Bryson",
-  "type": "commonjs",
   "main": "index.html",
   "scripts": {
     "dev": "pnpm --parallel --filter=\"./src/container\" --filter=\"./src/shipments\" --filter=\"./src/tracker\" start"
