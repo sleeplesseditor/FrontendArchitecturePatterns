@@ -31,5 +31,5 @@
 
 ## Use Instructions
 - CD into project folder
-- Run `npm install`
-- Run `npm run dev`
+- Run `npm install` in project folder, and the container, shipments and tracker subfolders
+- Run `npm run dev` in project folder
