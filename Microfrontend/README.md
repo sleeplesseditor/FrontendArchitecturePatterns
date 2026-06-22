@@ -3,11 +3,12 @@
 #### Table of Contents
 - [Description](#description)
 - [Benefits of Approach](#benefits-of-approach)
+- [Additional Points](#additional-points)
 - [Common Issues](#common-issues)
 - [Use Instructions](#use-instructions)
 
 ## Description
-- Using a Vanilla JS app, 
+- Using a very basic Vanilla JS app, this is a demonstration of how microfrontends can be assembled and run on different ports, whilst using the same component base. One variant uses all the existing components, whilst the other two utilise only specific components.
 
 ## Benefits of Approach
 - Decomposition
@@ -28,8 +29,11 @@
 ## Common Issues
 - Incorrect application to smaller projects/smaller developer teams
     - Microfrontends aren't necessary for smaller organisations (typically with fewer than 3-4 developer teams). If the project is released as a single unit, microfrontends can add unnecessary complexity
+- Mixing of frontend technologies
+    - In some instances, teams have been known to utilise different frameworks and libraries for their respective parts of a microfrontend architecture. The maintenance overhead this adds to a project is significant and should be avoided at all costs where possible
 
 ## Use Instructions
 - CD into project folder
 - Run `npm install` in project folder, and the container, shipments and tracker subfolders
 - Run `npm run dev` in project folder
+- Use localhost on ports 8080, 8081 and 8082 to see the microfrontend areas running
