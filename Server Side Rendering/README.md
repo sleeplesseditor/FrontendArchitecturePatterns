@@ -19,7 +19,7 @@ A basic example of SSR achieved using a simple Express server serving an EJS fil
 
 ## Common Issues
 - Server Load
-    - Computational responsibilities being offloaded to the server means that the server has to process/generate HTML files for every single page request
+    - Computational responsibilities being offloaded to the server means that the server has to process/generate HTML files for every single page request. Caching strategies can help mitigate against this demand, but only to a limited extent
     - Supporting this requires more expensive back-end solutions
 - Delayed Interactivity
     - Whilst content is visible quickly, interactivity can be delayed as JavaScript bundles are downloaded to the browser (otherwise known as ['hydration'](https://www.workingsoftware.dev/understanding-ssr-with-hydration-for-software-architects/))
